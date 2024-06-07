@@ -1,4 +1,4 @@
-export const depositMoney = (amount) => {
+export const depostMoney = (amount) => {
     return (dispatch) => {
         dispatch({
             type: "deposit",
