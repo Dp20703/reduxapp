@@ -1,9 +1,10 @@
  const reducer=(state=0,action)=>{
     if(action.type==='deposit'){
-        return state+action.playload;
+        // console.log(action.payload)
+        return state+action.payload;
     }
     if(action.type==='withdraw'){
-        return state-action.playload
+        return state-action.payload
     }
     else{
         return state;
